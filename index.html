@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreevathsa's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(12, 12, 48);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(22, 22, 83);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(152, 152, 234);
+        font-size: 1.01rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px 0;
+        align-items: center;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.75rem;
+        margin: 90px 0;
+      }
+      .rightSection img {
+        width: 115%;
+      }
+      .purple {
+        color: rgb(150, 77, 218);
+      }
+      #element {
+        color: rgb(150, 77, 218);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      main hr {
+        border: 0;
+        background: rgb(150, 77, 218);
+        height: 1.2px;
+        margin: 40px 50px;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 80px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+      .img-top {
+        width: 35px;
+        position: relative;
+        top: -40px;
+        left: -12px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 60px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 65px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(7, 42, 84);
+      }
+      .footer {
+        display: flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0px;
+      }
+      .leftSection .buttons{
+        display: flex;
+      }
+      .leftSection .btn-resume{
+        padding: 12px;
+        color: white;
+        border: solid white 2px;
+        border-radius: 2px;
+        background-color: rgb(34, 34, 170);
+        cursor: pointer;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        color: white;
+        border: solid white 2px;
+        border-radius: 2px;
+        background-color: rgb(34, 34, 170);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shreevathsa's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./index.html">Services</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Shreevathsa</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <b>
+            <button class="btn-resume"><a href="./Shreevathsa.pdf" download="Shreevathsa's CV" style="color: white;text-decoration: none;"><b>Download CV</b></a></div>
+            <button class="btn"><a href="https://github.com/TunedMajor08" style="text-decoration: none; color: white;"><b>Visit Github</b></a></div>
+            </b>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="./developer.png" alt="" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias temporibus vitae magnam repudiandae officiis, maxime
+              libero vero non quidem praesentium sint, quo ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./developer.png" alt="" />
+            <div class="vertical-title">Node js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias temporibus vitae magnam repudiandae officiis, maxime
+              libero vero non quidem praesentium sint, quo ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./developer.png" alt="" />
+            <div class="vertical-title">React js Developer (2014-2016)</div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias temporibus vitae magnam repudiandae officiis, maxime
+              libero vero non quidem praesentium sint, quo ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./developer.png" alt="" />
+            <div class="vertical-title">Java Developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias temporibus vitae magnam repudiandae officiis, maxime
+              libero vero non quidem praesentium sint, quo ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./developer.png" alt="" />
+            <div class="vertical-title">Software Developer (2018-2020)</div>
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestias temporibus vitae magnam repudiandae officiis, maxime
+              libero vero non quidem praesentium sint, quo ipsum.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Shreevathsa's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyrights &#169; www.shreevathsasportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Web Designer", "Video Editor"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
